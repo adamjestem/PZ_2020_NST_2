@@ -1,0 +1,1 @@
+przeznaczony na dokumentację techniczną i manual
