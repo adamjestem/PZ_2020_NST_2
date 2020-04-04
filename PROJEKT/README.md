@@ -1,1 +1,1 @@
-przeznaczony na dokumentację techniczną i manual
+przeznaczony na kod źródłowy projektu
