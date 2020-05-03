@@ -11,8 +11,8 @@ INSERT INTO `users` (`id`, `email`, `password`, `created_at`, `name`) VALUES
 
 INSERT INTO `domains` (`id`, `domain_desc`, `creator_id`, `created_at`) VALUES
 (1, 'devslog.pl', 1, '2020-04-16 20:34:14'),
-(2, 'pornhub.com', 1, '2020-04-21 19:34:09'),
-(3, 'pornhubpremium.com', 1, '2020-04-21 19:54:53');
+(2, 'devslog2.pl', 1, '2020-04-21 19:34:09'),
+(3, 'devslog3.pl', 1, '2020-04-21 19:54:53');
 
 INSERT INTO `privileges` (`id`, `privilege`, `created_at`) VALUES
 (1, 'Administrator', '2020-04-16 20:31:42'),
@@ -190,8 +190,7 @@ INSERT INTO `notifications` (`id`, `domain_id`, `user_id`, `notify_desc`, `is_re
 (36, 1, 6, 'Powiadmienie testowe nr.4', 0, '2020-04-21 17:07:47'),
 (37, 1, 6, 'Powiadmienie testowe nr.5', 0, '2020-04-21 17:07:51'),
 (38, 1, 6, 'Powiadmienie testowe nr.6', 0, '2020-04-21 17:07:54'),
-(39, 1, 6, 'Powiadmienie testowe nr.7', 0, '2020-04-21 17:07:58'),
-(40, 3, 9, 'Użytkownik Mateusz usunął Twoje uprawenienia do domeny pornhubpremium.com', 0, '2020-05-01 22:40:35');
+(39, 1, 6, 'Powiadmienie testowe nr.7', 0, '2020-04-21 17:07:58');
 
 
 
