@@ -1,0 +1,11 @@
+User@DESKTOP-47V19VS MINGW64 /c/users/user/desktop/jakr532 (master)
+$ git clone --single-branch --branch BJR532 https://github.com/adamjestem/PZ_2020_NST_2.git
+Cloning into 'PZ_2020_NST_2'...
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 7 (delta 1), reused 7 (delta 1), pack-reused 0
+Unpacking objects: 100% (7/7), done.
+
+User@DESKTOP-47V19VS MINGW64 /c/users/user/desktop/jakr532 (master)
+$
