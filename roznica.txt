@@ -1,4 +1,4 @@
- anonymouse@anonymouse:~/cg347$ git remote -v
+anonymouse@anonymouse:~/cg347$ git remote -v
 CG347	https://github.com/adamjeste/PZ_2020_NST_2.git (fetch)
 CG347	https://github.com/adamjeste/PZ_2020_NST_2.git (push)
 cg347	https://github.com/adamjestem/PZ_2020_NST_2.git (fetch)
@@ -31,5 +31,34 @@ Author: cyprianG96 <cyprian.g55@gmail.com>
 Date:   Sun May 17 12:03:05 2020 +0200
 
     commit txt
+anonymouse@anonymouse:~/cg347$ ^C
+anonymouse@anonymouse:~/cg347$ ^C
+anonymouse@anonymouse:~/cg347$ git diff
+diff --git a/konsola.txt b/konsola.txt
+index 8d1c8b6..805fa28 100644
+--- a/konsola.txt
++++ b/konsola.txt
+@@ -1 +1,35 @@
+- 
++ anonymouse@anonymouse:~/cg347$ git remote -v
++CG347  https://github.com/adamjeste/PZ_2020_NST_2.git (fetch)
++CG347  https://github.com/adamjeste/PZ_2020_NST_2.git (push)
++cg347  https://github.com/adamjestem/PZ_2020_NST_2.git (fetch)
++cg347  https://github.com/adamjestem/PZ_2020_NST_2.git (push)
++anonymouse@anonymouse:~/cg347$ git branch
++* CG347
++anonymouse@anonymouse:~/cg347$ przypadkowo usunalem konsole ale tworzy sie git checkout -b 'nazwa brancha'
++przypadkowo: command not found
++anonymouse@anonymouse:~/cg347$ git add .
++anonymouse@anonymouse:~/cg347$ git add .
++anonymouse@anonymouse:~/cg347$ git commit -m "Dodanie pliku konsola.txt"
++[CG347 4efede6] Dodanie pliku konsola.txt
++ 1 file changed, 1 insertion(+)
++anonymouse@anonymouse:~/cg347$ git push cg347 CG347 
++Enumerating objects: 5, done.
+
+[1]+  Stopped                 git diff
+anonymouse@anonymouse:~/cg347$ ^C
 anonymouse@anonymouse:~/cg347$ 
+
 
