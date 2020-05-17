@@ -1,0 +1,220 @@
+szymon.sajdak_vpn@8J76422 MINGW64 ~/Desktop
+$ cd repogitnew
+
+szymon.sajdak_vpn@8J76422 MINGW64 ~/Desktop/repogitnew
+$ mkdir SS101
+
+szymon.sajdak_vpn@8J76422 MINGW64 ~/Desktop/repogitnew
+$ cd SS101
+
+szymon.sajdak_vpn@8J76422 MINGW64 ~/Desktop/repogitnew/SS101
+$ git remote add SS101 https://github.com/adamjeste/PZ_2020_NST_2.git
+fatal: not a git repository (or any of the parent directories): .git
+
+szymon.sajdak_vpn@8J76422 MINGW64 ~/Desktop/repogitnew/SS101
+$ ^C
+
+szymon.sajdak_vpn@8J76422 MINGW64 ~/Desktop/repogitnew/SS101
+$ git remote add SS101 https://github.com/adamjestem/PZ_2020_NST_2.git
+fatal: not a git repository (or any of the parent directories): .git
+
+szymon.sajdak_vpn@8J76422 MINGW64 ~/Desktop/repogitnew/SS101
+$ git init
+Initialized empty Git repository in C:/Users/szymon.sajdak_vpn/Desktop/repogitnew/SS101/.git/
+
+szymon.sajdak_vpn@8J76422 MINGW64 ~/Desktop/repogitnew/SS101 (master)
+$ git remote add SS101 https://github.com/adamjestem/PZ_2020_NST_2.git
+
+szymon.sajdak_vpn@8J76422 MINGW64 ~/Desktop/repogitnew/SS101 (master)
+$ git remote -v
+SS101   https://github.com/adamjestem/PZ_2020_NST_2.git (fetch)
+SS101   https://github.com/adamjestem/PZ_2020_NST_2.git (push)
+
+szymon.sajdak_vpn@8J76422 MINGW64 ~/Desktop/repogitnew/SS101 (master)
+$ git checkout -b SS538
+Switched to a new branch 'SS538'
+
+szymon.sajdak_vpn@8J76422 MINGW64 ~/Desktop/repogitnew/SS101 (SS538)
+$ touch konsola.txt
+
+szymon.sajdak_vpn@8J76422 MINGW64 ~/Desktop/repogitnew/SS101 (SS538)
+$ ls
+konsola.txt
+
+szymon.sajdak_vpn@8J76422 MINGW64 ~/Desktop/repogitnew/SS101 (SS538)
+szymon.sajdak_vpn@8J76422 MINGW64 ~/Desktop
+$ cd repogitnew
+
+szymon.sajdak_vpn@8J76422 MINGW64 ~/Desktop/repogitnew
+$ mkdir SS101
+
+szymon.sajdak_vpn@8J76422 MINGW64 ~/Desktop/repogitnew
+$ cd SS101
+
+szymon.sajdak_vpn@8J76422 MINGW64 ~/Desktop/repogitnew/SS101
+$ git remote add SS101 https://github.com/adamjeste/PZ_2020_NST_2.git
+fatal: not a git repository (or any of the parent directories): .git
+
+szymon.sajdak_vpn@8J76422 MINGW64 ~/Desktop/repogitnew/SS101
+$ ^C
+
+szymon.sajdak_vpn@8J76422 MINGW64 ~/Desktop/repogitnew/SS101
+$ git remote add SS101 https://github.com/adamjestem/PZ_2020_NST_2.git
+fatal: not a git repository (or any of the parent directories): .git
+
+szymon.sajdak_vpn@8J76422 MINGW64 ~/Desktop/repogitnew/SS101
+$ git init
+Initialized empty Git repository in C:/Users/szymon.sajdak_vpn/Desktop/repogitnew/SS101/.git/
+
+szymon.sajdak_vpn@8J76422 MINGW64 ~/Desktop/repogitnew/SS101 (master)
+$ git remote add SS101 https://github.com/adamjestem/PZ_2020_NST_2.git
+
+szymon.sajdak_vpn@8J76422 MINGW64 ~/Desktop/repogitnew/SS101 (master)
+$ git remote -v
+SS101   https://github.com/adamjestem/PZ_2020_NST_2.git (fetch)
+SS101   https://github.com/adamjestem/PZ_2020_NST_2.git (push)
+
+szymon.sajdak_vpn@8J76422 MINGW64 ~/Desktop/repogitnew/SS101 (master)
+$ git checkout -b SS538
+Switched to a new branch 'SS538'
+
+szymon.sajdak_vpn@8J76422 MINGW64 ~/Desktop/repogitnew/SS101 (SS538)
+$ touch konsola.txt
+
+szymon.sajdak_vpn@8J76422 MINGW64 ~/Desktop/repogitnew/SS101 (SS538)
+$ ls
+konsola.txt
+
+szymon.sajdak_vpn@8J76422 MINGW64 ~/Desktop/repogitnew/SS101 (SS538)
+$ git status
+On branch SS538
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        konsola.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+szymon.sajdak_vpn@8J76422 MINGW64 ~/Desktop/repogitnew/SS101 (SS538)
+$ git commit -m "Dodanie pliku konsola.txt"
+On branch SS538
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        konsola.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+szymon.sajdak_vpn@8J76422 MINGW64 ~/Desktop/repogitnew/SS101 (SS538)
+$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+szymon.sajdak_vpn@8J76422 MINGW64 ~/Desktop/repogitnew/SS101 (SS538)
+$ git add -all
+error: did you mean `--all` (with two dashes)?
+
+szymon.sajdak_vpn@8J76422 MINGW64 ~/Desktop/repogitnew/SS101 (SS538)
+$ git add --all
+
+szymon.sajdak_vpn@8J76422 MINGW64 ~/Desktop/repogitnew/SS101 (SS538)
+$ git commit -m "Dodanie pliku konsola.txt"
+[SS538 (root-commit) 82fc02c] Dodanie pliku konsola.txt
+ Committer: Szymon Sajdak_vpn <szymon.sajdak_vpn@adds.nazwa.pl>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 konsola.txt
+
+szymon.sajdak_vpn@8J76422 MINGW64 ~/Desktop/repogitnew/SS101 (SS538)
+$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+szymon.sajdak_vpn@8J76422 MINGW64 ~/Desktop/repogitnew/SS101 (SS538)
+$ git push SS538
+fatal: The current branch SS538 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream SS538 SS538
+
+
+szymon.sajdak_vpn@8J76422 MINGW64 ~/Desktop/repogitnew/SS101 (SS538)
+$ ^C
+
+szymon.sajdak_vpn@8J76422 MINGW64 ~/Desktop/repogitnew/SS101 (SS538)
+$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+szymon.sajdak_vpn@8J76422 MINGW64 ~/Desktop/repogitnew/SS101 (SS538)
+$ git push SS101
+fatal: The current branch SS538 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream SS101 SS538
+
+
+szymon.sajdak_vpn@8J76422 MINGW64 ~/Desktop/repogitnew/SS101 (SS538)
+$ git push --set-upstream SS101 SS538
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 240 bytes | 240.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'SS538' on GitHub by visiting:
+remote:      https://github.com/adamjestem/PZ_2020_NST_2/pull/new/SS538
+remote:
+To https://github.com/adamjestem/PZ_2020_NST_2.git
+ * [new branch]      SS538 -> SS538
+Branch 'SS538' set up to track remote branch 'SS538' from 'SS101'.
+
+szymon.sajdak_vpn@8J76422 MINGW64 ~/Desktop/repogitnew/SS101 (SS538)
+$ git log
+commit 82fc02c77387fc601e4e990b9541a0407e2f7522 (HEAD -> SS538, SS101/SS538)
+Author: Szymon Sajdak_vpn <szymon.sajdak_vpn@adds.nazwa.pl>
+Date:   Sun May 17 12:04:12 2020 +0200
+
+    Dodanie pliku konsola.txt
+
+szymon.sajdak_vpn@8J76422 MINGW64 ~/Desktop/repogitnew/SS101 (SS538)
+$ git status
+On branch SS538
+Your branch is up to date with 'SS101/SS538'.
+
+nothing to commit, working tree clean
