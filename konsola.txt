@@ -1,0 +1,84 @@
+
+osze2@PC-911 MINGW64 ~/Desktop
+$ cd AS580
+
+osze2@PC-911 MINGW64 ~/Desktop/AS580
+$ git init
+Initialized empty Git repository in C:/Users/osze2/Desktop/AS580/.git/
+
+osze2@PC-911 MINGW64 ~/Desktop/AS580 (master)
+$ git remote add AS580 https://github.com/adamjestem/PZ_2020_NST_2.git
+
+osze2@PC-911 MINGW64 ~/Desktop/AS580 (master)
+$ git remote
+AS580
+
+osze2@PC-911 MINGW64 ~/Desktop/AS580 (master)
+$ git remote -v
+AS580   https://github.com/adamjestem/PZ_2020_NST_2.git (fetch)
+AS580   https://github.com/adamjestem/PZ_2020_NST_2.git (push)
+
+osze2@PC-911 MINGW64 ~/Desktop/AS580 (master)
+$ git checkout -b BAS580
+Switched to a new branch 'BAS580'
+
+osze2@PC-911 MINGW64 ~/Desktop/AS580 (BAS580)
+$ touch konsola.txt
+
+osze2@PC-911 MINGW64 ~/Desktop/AS580 (BAS580)
+$ git add konsola.txt
+
+osze2@PC-911 MINGW64 ~/Desktop/AS580 (BAS580)
+$ git status
+On branch BAS580
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   konsola.txt
+
+
+osze2@PC-911 MINGW64 ~/Desktop/AS580 (BAS580)
+$ git commit -m "Dodanie pliku konsola.txt"
+[BAS580 (root-commit) 0af1c26] Dodanie pliku konsola.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 konsola.txt
+
+osze2@PC-911 MINGW64 ~/Desktop/AS580 (BAS580)
+$ git status
+On branch BAS580
+nothing to commit, working tree clean
+
+osze2@PC-911 MINGW64 ~/Desktop/AS580 (BAS580)
+$ git push -u origin BAS580
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+osze2@PC-911 MINGW64 ~/Desktop/AS580 (BAS580)
+$ git push -u AS580 BAS580
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 228 bytes | 228.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+remote:
+remote: Create a pull request for 'BAS580' on GitHub by visiting:
+remote:      https://github.com/adamjestem/PZ_2020_NST_2/pull/new/BAS580
+remote:
+To https://github.com/adamjestem/PZ_2020_NST_2.git
+ * [new branch]      BAS580 -> BAS580
+Branch 'BAS580' set up to track remote branch 'BAS580' from 'AS580'.
+
+osze2@PC-911 MINGW64 ~/Desktop/AS580 (BAS580)
+$ git status
+On branch BAS580
+Your branch is up to date with 'AS580/BAS580'.
+
+nothing to commit, working tree clean
+
+osze2@PC-911 MINGW64 ~/Desktop/AS580 (BAS580)
+$
