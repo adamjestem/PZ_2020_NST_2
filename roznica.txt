@@ -1,0 +1,15 @@
+Fyrr@Lenovo MINGW64 ~/Desktop/KF335 (BKF335)
+$ git diff
+diff --git a/konsola.txt b/konsola.txt
+index 4e672d7..b1be4b8 100644
+--- a/konsola.txt
++++ b/konsola.txt
+@@ -1,3 +1,4 @@
++
+ Fyrr@Lenovo MINGW64 ~
+ $ cd /c/Users/Fyrr/Desktop/KF335
+
+@@ -67,5 +68,39 @@ Your branch is up to date with 'kf335/BKF335'.
+
+ nothing to commit, working tree clean
+
