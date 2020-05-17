@@ -1,0 +1,44 @@
+User@DESKTOP-47V19VS MINGW64 /c/users/user/desktop/jr532 (BJR532)
+$ git diff
+diff --git a/konsola.txt b/konsola.txt
+index e69de29..e98c59a 100644
+--- a/konsola.txt
++++ b/konsola.txt
+@@ -0,0 +1,61 @@
++User@DESKTOP-47V19VS MINGW64 /c/users/user/desktop/jr532 (kubaBawiSieGitem)
++$ git init
++Initialized empty Git repository in C:/Users/User/Desktop/JR532/.git/
++
++User@DESKTOP-47V19VS MINGW64 /c/users/user/desktop/jr532 (master)
++$ git remote add origin https://github.com/adamjestem/PZ_2020_NST_2.git
++
++User@DESKTOP-47V19VS MINGW64 /c/users/user/desktop/jr532 (master)
++$ git remote -v
++origin  https://github.com/adamjestem/PZ_2020_NST_2.git (fetch)
++origin  https://github.com/adamjestem/PZ_2020_NST_2.git (push)
++
++User@DESKTOP-47V19VS MINGW64 /c/users/user/desktop/jr532 (master)
++$ git checkout -b BJR532
++Switched to a new branch 'BJR532'
++
++User@DESKTOP-47V19VS MINGW64 /c/users/user/desktop/jr532 (BJR532)
++$ git status
++On branch BJR532
++
++No commits yet
++
++Untracked files:
++  (use "git add <file>..." to include in what will be committed)
++
++        konsola.txt
++
++nothing added to commit but untracked files present (use "git add" to track)
++
++User@DESKTOP-47V19VS MINGW64 /c/users/user/desktop/jr532 (BJR532)
++$ git add .
++
++User@DESKTOP-47V19VS MINGW64 /c/users/user/desktop/jr532 (BJR532)
++$ git commit -m "Dodanie pliku konsola.txt"
++[BJR532 (root-commit) d0feef5] Dodanie pliku konsola.txt
++ 1 file changed, 0 insertions(+), 0 deletions(-)
+:
