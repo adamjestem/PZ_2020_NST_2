@@ -81,4 +81,37 @@ Your branch is up to date with 'AS580/BAS580'.
 nothing to commit, working tree clean
 
 osze2@PC-911 MINGW64 ~/Desktop/AS580 (BAS580)
+$ git add konsola.txt
+
+osze2@PC-911 MINGW64 ~/Desktop/AS580 (BAS580)
+$ git status
+On branch BAS580
+Your branch is up to date with 'AS580/BAS580'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   konsola.txt
+
+
+osze2@PC-911 MINGW64 ~/Desktop/AS580 (BAS580)
+$ git commit -m "Dodano zawartość do pliku konsola.txt"
+[BAS580 04bfb77] Dodano zawartość do pliku konsola.txt
+ 1 file changed, 84 insertions(+)
+
+osze2@PC-911 MINGW64 ~/Desktop/AS580 (BAS580)
+$ git log
+commit 04bfb7763deee34a8ac8c4687616839a385cee45 (HEAD -> BAS580)
+Author: Bezimienny197 <osze2012@gmail.com>
+Date:   Sun May 17 12:11:35 2020 +0200
+
+    Dodano zawartość do pliku konsola.txt
+
+commit 0af1c26d12af1d30d653a230a737362aef2b819d (AS580/BAS580)
+Author: Bezimienny197 <osze2012@gmail.com>
+Date:   Sun May 17 12:06:27 2020 +0200
+
+    Dodanie pliku konsola.txt
+
+osze2@PC-911 MINGW64 ~/Desktop/AS580 (BAS580)
 $
