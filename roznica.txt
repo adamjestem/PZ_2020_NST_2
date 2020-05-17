@@ -1,0 +1,26 @@
+chokm@DESKTOP-GG93C35 MINGW64 /d/Github/mb252 (Bmb252)
+$ git diff
+diff --git a/konsola.txt b/konsola.txt
+index 4d91184..e69de29 100644
+--- a/konsola.txt
++++ b/konsola.txt
+@@ -1,61 +0,0 @@
+-chokm@DESKTOP-GG93C35 MINGW64 /d/Github
+-$ mkdir mb252
+-
+-chokm@DESKTOP-GG93C35 MINGW64 /d/Github
+-$ cd mb252/
+-
+-chokm@DESKTOP-GG93C35 MINGW64 /d/Github/mb252
+-$ git init
+-Initialized empty Git repository in D:/Github/mb252/.git/
+-
+-chokm@DESKTOP-GG93C35 MINGW64 /d/Github/mb252 (master)
+-$ git remote add mb252 https://github.com/adamjestem/PZ_2020_NST_2.git
+-
+-chokm@DESKTOP-GG93C35 MINGW64 /d/Github/mb252 (master)
+-$ git remote -v
+-mb252   https://github.com/adamjestem/PZ_2020_NST_2.git (fetch)
+-mb252   https://github.com/adamjestem/PZ_2020_NST_2.git (push)
+-
+:
