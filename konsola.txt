@@ -1,0 +1,71 @@
+Fyrr@Lenovo MINGW64 ~
+$ cd /c/Users/Fyrr/Desktop/KF335
+
+Fyrr@Lenovo MINGW64 ~/Desktop/KF335
+$ git init
+Initialized empty Git repository in C:/Users/Fyrr/Desktop/KF335/.git/
+
+Fyrr@Lenovo MINGW64 ~/Desktop/KF335 (master)
+$ git remote add kf335 https://github.com/adamjestem/PZ_2020_NST_2.git
+
+Fyrr@Lenovo MINGW64 ~/Desktop/KF335 (master)
+$ git remote -v
+kf335   https://github.com/adamjestem/PZ_2020_NST_2.git (fetch)
+kf335   https://github.com/adamjestem/PZ_2020_NST_2.git (push)
+
+Fyrr@Lenovo MINGW64 ~/Desktop/KF335 (master)
+$ git branch BKF335
+fatal: Not a valid object name: 'master'.
+
+Fyrr@Lenovo MINGW64 ~/Desktop/KF335 (master)
+$ git branch BKF335
+fatal: Not a valid object name: 'master'.
+
+Fyrr@Lenovo MINGW64 ~/Desktop/KF335 (master)
+$ git checkout -b BKF335
+Switched to a new branch 'BKF335'
+
+Fyrr@Lenovo MINGW64 ~/Desktop/KF335 (BKF335)
+$ git touch konsola.txt
+git: 'touch' is not a git command. See 'git --help'.
+
+Fyrr@Lenovo MINGW64 ~/Desktop/KF335 (BKF335)
+$ touch konsola.txt
+
+Fyrr@Lenovo MINGW64 ~/Desktop/KF335 (BKF335)
+$ git add konsola.txt
+
+Fyrr@Lenovo MINGW64 ~/Desktop/KF335 (BKF335)
+$ git commit -m "Dodanie pliku konsola.txt"
+[BKF335 (root-commit) 172d49c] Dodanie pliku konsola.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 konsola.txt
+
+Fyrr@Lenovo MINGW64 ~/Desktop/KF335 (BKF335)
+$ git remote -v
+kf335   https://github.com/adamjestem/PZ_2020_NST_2.git (fetch)
+kf335   https://github.com/adamjestem/PZ_2020_NST_2.git (push)
+
+Fyrr@Lenovo MINGW64 ~/Desktop/KF335 (BKF335)
+$ git push -u kf335 BKF335
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 234 bytes | 234.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+remote:
+remote: Create a pull request for 'BKF335' on GitHub by visiting:
+remote:      https://github.com/adamjestem/PZ_2020_NST_2/pull/new/BKF335
+remote:
+To https://github.com/adamjestem/PZ_2020_NST_2.git
+ * [new branch]      BKF335 -> BKF335
+Branch 'BKF335' set up to track remote branch 'BKF335' from 'kf335'.
+
+Fyrr@Lenovo MINGW64 ~/Desktop/KF335 (BKF335)
+$ git status
+On branch BKF335
+Your branch is up to date with 'kf335/BKF335'.
+
+nothing to commit, working tree clean
+
+Fyrr@Lenovo MINGW64 ~/Desktop/KF335 (BKF335)
+$
