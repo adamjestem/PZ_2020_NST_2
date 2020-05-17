@@ -1,0 +1,11 @@
+anonymouse@anonymouse:~$ cd Desktop/CypG347/
+anonymouse@anonymouse:~/Desktop/CypG347$ git clone --single-branch --branch CG347 https://github.com/adamjestem/PZ_2020_NST_2.git
+Cloning into 'PZ_2020_NST_2'...
+remote: Enumerating objects: 10, done.
+remote: Counting objects: 100% (10/10), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 10 (delta 1), reused 10 (delta 1), pack-reused 0
+Unpacking objects: 100% (10/10), 1.47 KiB | 754.00 KiB/s, done.
+anonymouse@anonymouse:~/Desktop/CypG347$ touch download.txt
+anonymouse@anonymouse:~/Desktop/CypG347$ 
+
