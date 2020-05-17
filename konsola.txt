@@ -1,0 +1,61 @@
+chokm@DESKTOP-GG93C35 MINGW64 /d/Github
+$ mkdir mb252
+
+chokm@DESKTOP-GG93C35 MINGW64 /d/Github
+$ cd mb252/
+
+chokm@DESKTOP-GG93C35 MINGW64 /d/Github/mb252
+$ git init
+Initialized empty Git repository in D:/Github/mb252/.git/
+
+chokm@DESKTOP-GG93C35 MINGW64 /d/Github/mb252 (master)
+$ git remote add mb252 https://github.com/adamjestem/PZ_2020_NST_2.git
+
+chokm@DESKTOP-GG93C35 MINGW64 /d/Github/mb252 (master)
+$ git remote -v
+mb252   https://github.com/adamjestem/PZ_2020_NST_2.git (fetch)
+mb252   https://github.com/adamjestem/PZ_2020_NST_2.git (push)
+
+chokm@DESKTOP-GG93C35 MINGW64 /d/Github/mb252 (master)
+$ git checkout -b Bmb252
+Switched to a new branch 'Bmb252'
+
+chokm@DESKTOP-GG93C35 MINGW64 /d/Github/mb252 (Bmb252)
+$ touch konsola.txt
+
+chokm@DESKTOP-GG93C35 MINGW64 /d/Github/mb252 (Bmb252)
+$ git add koncola.txt
+fatal: pathspec 'koncola.txt' did not match any files
+
+chokm@DESKTOP-GG93C35 MINGW64 /d/Github/mb252 (Bmb252)
+$ git add konsola.txt
+
+chokm@DESKTOP-GG93C35 MINGW64 /d/Github/mb252 (Bmb252)
+$ git commit -m "Dodanie pliku konsola.txt"
+[Bmb252 (root-commit) 897d301] Dodanie pliku konsola.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 konsola.txt
+
+chokm@DESKTOP-GG93C35 MINGW64 /d/Github/mb252 (Bmb252)
+$ git push --set-upstream mb252 Bmb252
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 229 bytes | 229.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'Bmb252' on GitHub by visiting:
+remote:      https://github.com/adamjestem/PZ_2020_NST_2/pull/new/Bmb252
+remote:
+To https://github.com/adamjestem/PZ_2020_NST_2.git
+ * [new branch]      Bmb252 -> Bmb252
+Branch 'Bmb252' set up to track remote branch 'Bmb252' from 'mb252'.
+
+chokm@DESKTOP-GG93C35 MINGW64 /d/Github/mb252 (Bmb252)
+$ git status
+On branch Bmb252
+Your branch is up to date with 'mb252/Bmb252'.
+
+nothing to commit, working tree clean
+
+chokm@DESKTOP-GG93C35 MINGW64 /d/Github/mb252 (Bmb252)
+
