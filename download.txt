@@ -1,0 +1,20 @@
+chokm@DESKTOP-GG93C35 MINGW64 /d/Github
+$ mkdir MatB252
+
+chokm@DESKTOP-GG93C35 MINGW64 /d/Github
+$ cd MatB252/
+
+chokm@DESKTOP-GG93C35 MINGW64 /d/Github/MatB252
+$ git clone -b Bmb252 https://github.com/adamjestem/PZ_2020_NST_2.git
+Cloning into 'PZ_2020_NST_2'...
+remote: Enumerating objects: 111, done.
+remote: Counting objects: 100% (111/111), done.
+remote: Compressing objects: 100% (78/78), done.
+remote: Total 111 (delta 18), reused 101 (delta 15), pack-reused 0
+Receiving objects: 100% (111/111), 4.51 MiB | 3.62 MiB/s, done.
+Resolving deltas: 100% (18/18), done.
+
+chokm@DESKTOP-GG93C35 MINGW64 /d/Github/MatB252
+$ cd PZ_2020_NST_2/
+
+chokm@DESKTOP-GG93C35 MINGW64 /d/Github/MatB252/PZ_2020_NST_2 (Bmb252)
