@@ -1,0 +1,1 @@
+Kaalog zawierający dokumentację techniczną i manual

@@ -1,0 +1,1 @@
+Katalog zawierający pliki potrzebne do bazy oraz inne pliki niezbędne do działania programu
