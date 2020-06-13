@@ -1,4 +1,4 @@
 Katalog zawierający instalator
 
-Instalator można pobrać przehcodząc pod adres:
+Instalator można pobrać przechodząc pod adres:
 https://nazwaszymons.nazwa.pl/devslog/Devslog.exe
